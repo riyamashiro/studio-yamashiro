@@ -10,9 +10,7 @@ import { Layout } from "@/layout/Layout";
 // Páginas
 import HomePage from "@/pages/HomePage"; // default export (OK)
 import { AboutPage } from "@/pages/AboutPage"; // named export
-import PagBankCasePage from "@/pages/PagBankCasePage"; // default export
-import ConectaCasePage from "@/pages/ConectaCasePage";
- // named export
+import PagBankCasePage from "@/pages/PagBankCasePage"; // default export 
 import { ProjectTemplatePage } from "@/pages/ProjectTemplatePage"; // named export
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
