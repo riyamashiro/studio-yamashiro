@@ -10,7 +10,9 @@ import { Layout } from "@/layout/Layout";
 // Páginas
 import HomePage from "@/pages/HomePage"; // default export (OK)
 import { AboutPage } from "@/pages/AboutPage"; // named export
-import PagBankCasePage from "@/pages/PagBankCasePage"; // default export 
+import PagBankCasePage from "@/pages/PagBankCasePage"; // default export
+
+ // named export
 import { ProjectTemplatePage } from "@/pages/ProjectTemplatePage"; // named export
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
@@ -26,7 +28,6 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
 
           {/* Cases */}
           <Route path="/pagbank" element={<PagBankCasePage />} />
-          <Route path="/conecta" element={<ConectaCasePage />} />
 
           {/* Template genérico (se você ainda usar) */}
           <Route path="/project-template" element={<ProjectTemplatePage />} />
